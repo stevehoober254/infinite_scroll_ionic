@@ -1,17 +1,20 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Info
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content class="ion-padding">
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Tab 2</ion-title>
     </ion-toolbar>
   </ion-header>
-
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+<ion-label class="ion-padding">
+  <h2>The Infinite Scroll component calls an action to be performed when the user scrolls a specified distance from the bottom or top of the page.</h2>
+  <br/>
+  <p>The expression assigned to the ionInfinite event is called when the user reaches that defined distance. When this expression has finished any and all tasks, it should call the complete() method on the infinite scroll instance.</p>
+</ion-label>
 </ion-content>
